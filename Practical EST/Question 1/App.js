@@ -4,9 +4,8 @@ export default function App() {
   return (
     <div>
       <h1>Prop Drilling Demo</h1>
-      
-      {/* Passing username to Header */}
       <Header username={username} />
     </div>
   );
 }
+
