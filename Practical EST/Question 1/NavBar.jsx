@@ -3,11 +3,11 @@ export default function NavBar({ username }) {
     <nav>
       <p>Navigation Bar</p>
 
-      {/* Passing username further to UserProfile */}
       <UserProfile username={username} />
     </nav>
   );
 }
 
 import UserProfile from "./UserProfile";
+
 
